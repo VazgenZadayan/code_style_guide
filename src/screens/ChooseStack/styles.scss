@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0;
+  gap: 50px;
+  h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: #282a36;
+  }
+}
+
+.data_grid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainCard {
+  background: no-repeat center/100% url('../../assets/card_bg.jpg');
+  border-radius: 5px;
+  width: 'fit-content';
+  height: 117px;
+  display: flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 75px 30px rgba(0, 0, 0, 0.01))
+    drop-shadow(0px 42px 25px rgba(0, 0, 0, 0.05))
+    drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.09))
+    drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+  p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+  }
+}
+
+.button_group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+.btn {
+  width: 'fit-content';
+  height: 44px;
+  padding: 40px;
+  background: no-repeat center/100% url('../../assets/card_bg.jpg');
+  border: 1px solid #e7e7e7;
+  filter: drop-shadow(0px 75px 30px rgba(0, 0, 0, 0.01))
+    drop-shadow(0px 42px 25px rgba(0, 0, 0, 0.05))
+    drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.09))
+    drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+  box-shadow: 0px 75px 30px rgba(0, 0, 0, 0.01),
+    0px 42px 25px rgba(0, 0, 0, 0.05), 0px 19px 19px rgba(0, 0, 0, 0.09),
+    0px 5px 10px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}

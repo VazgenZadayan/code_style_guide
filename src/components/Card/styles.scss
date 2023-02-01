@@ -1,0 +1,32 @@
+.card_container {
+  filter: drop-shadow(61px 133px 59px rgba(0, 0, 0, 0.01)) drop-shadow(34px 75px 50px rgba(0, 0, 0, 0.05)) drop-shadow(15px 33px 37px rgba(0, 0, 0, 0.09)) drop-shadow(4px 8px 20px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+  width: 467px;
+  height: 319px;
+  gap: 10px;
+  background: url('../../assets/card_bg.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.3s;
+  text-decoration: none;
+  border-radius: 10px;
+  &:hover{
+    transform: scale3d(1.04,1.04,1.04);
+    transition: all 0.3s;
+  }
+    h2 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 49px;
+      color: #898989;
+    }
+    img {
+      width: 98px;
+      height: 98px;
+    }
+}

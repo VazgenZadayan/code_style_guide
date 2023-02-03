@@ -36,7 +36,7 @@ const StructureSnippet = () => {
   };
 
   return (
-    <Grid container style={{ overflow: 'hidden' }}>
+    <Grid container style={{ overflow: 'hidden', height: 'calc(100% - 50px)' }}>
       <Grid item xs={2.5} padding={1} style={{overflow: 'hidden auto'}}>
         <Typography variant="body1" color="#ffffffd6">
           EXPLORER

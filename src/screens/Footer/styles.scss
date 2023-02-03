@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  background: rgb(243, 243, 243);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.dark {
+  background: rgb(28,31,35);
+  .links {
+    p {
+    color: #9d9d9d;
+    span {
+      a {
+        color: #d5d5d5;
+      }
+    }
+    }
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 49px;
+    color: #898989;
+    span {
+      margin-left: 5px;
+      a {
+        color: #3b3b3b;
+      }
+    }
+  }
+}

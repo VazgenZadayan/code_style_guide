@@ -1,4 +1,4 @@
-
+/* eslint-disable no-useless-escape */
 export const snippets: any = {
   'components.Example.tsx': `
 import { SUBJECT } from './constants/constants';

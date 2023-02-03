@@ -14,9 +14,11 @@ This project is currently in development. At this stage, the project is limited 
 
 #### Example:
 
-[ PRETEND SCREEN SHOT IS HERE ]
+![Main Screen](public/assets/main_screen.png?raw=true "Main Screen")
 
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+![JS Code Style Screen](public/assets/style_screen.png?raw=true "JS Code Style Screen")
+
+![File Structure Screen](public/assets/structure_screen.png?raw=true "File Structure Screen")
 
 ## Installation and Setup Instructions
 
